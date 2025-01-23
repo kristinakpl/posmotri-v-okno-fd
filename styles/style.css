@@ -69,6 +69,7 @@ ol {
   flex-direction: column;
   justify-content: start;
   gap: 18px;
+  font-family: "Oswald", sans-serif;
 }
 
 .search-form {
@@ -88,7 +89,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .result__video {
@@ -138,7 +139,7 @@ ol {
   font-size: 75px;
   line-height: 0.94;
   text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
+  font-family: inherit;
 }
 
 .content__accent {
@@ -149,7 +150,7 @@ ol {
   display: block;
   text-decoration: none;
   color: #fff;
-  font-family: "Oswald", sans-serif;
+  font-family: inherit;
   font-size: 20px;
 }
 
@@ -202,9 +203,9 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid #fff;
-  border-top: 1px solid #fff;
+  color: #fff;
+  border-bottom: 1px solid currentColor;
+  border-top: 1px solid currentColor;
   border-right: none;
   border-left: none;
   background-color: transparent;
@@ -243,7 +244,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
@@ -297,7 +298,6 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline 1px #fff;
-  text-underline-offset: 2px;
 }
 
 .content__card-link:active {
